@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    --border-right-button-color: #9ca3af;
+    --motto-color: #4c0519;
+}
+
+header {
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.index-header-image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-image: url(../images/italian-restaurant-image.jpg);
+    background-size: cover;
+}
+
+.index-header-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.index-title {
+    text-align: center;
+    padding: 10rem 15rem;
+}
+
+.index-navigation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 1;
+    backdrop-filter: blur(20px) brightness(0);
+}
+
+.index-navigation-button {
+    padding: 2rem;
+    font-size: 1rem;
+    flex: 1;
+    border-style: none;
+    color: white;
+    background-color: transparent;
+}
+
+.main-content {
+    width: 100%;
+}
+
+.index-motto {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 8rem;
+    gap: 3rem;
+    background-color: var(--motto-color);
+    color: white;
+    overflow: auto;
+}
+
+.index-motto-header-container {
+    flex: 1;
+}
+
+.index-motto-paragraph-container {
+    flex: 1;
+}
+
+.font-size-1rem {
+    font-size: 1rem;
+}
+
+.font-size-2rem {
+    font-size: 2rem;
+}
+
+.font-size-3rem {
+    font-size: 3rem;
+}
+
+.font-size-5rem {
+    font-size: 6rem;
+}
+
+.text-color-white {
+    color: white;
+}
+
+.border-right-button {
+    border-right: 1px solid var(--border-right-button-color);
+}
+
+.index-header-backdrop-filter {
+    backdrop-filter: blur(5px) brightness(0.5);
+}
+
+.index-nav-backdrop-filter {
+    backdrop-filter: blur(10px) brightness(0.2) grayscale(100%);
+}
