@@ -1,7 +1,10 @@
 import loadHomePage from "./home";
+import loadMenuPage from "./menu";
+import initializeButtons from "./navigation";
 
 function initializeWebsite() {
-    loadHomePage();
+    initializeButtons();
+    loadMenuPage()
 }
 
 export default initializeWebsite;

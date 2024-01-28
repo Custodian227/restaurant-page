@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    --border-right-button-color: #9ca3af;
+    --panel-border-color: #4c0519;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu-header {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 3rem;
+    border-bottom: 1px solid black;
+    padding: 1rem 0rem;
+    margin-bottom: 4rem;
+}
+
+.menu-title {
+    font-size: 3rem;
+}
+
+.menu-title-additional {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-restaurant-name-container{
+    display: flex;
+    align-items: center;
+}
+
+.menu-restaurant-name {
+    font-size: 2rem;
+}
+
+.menu-flag {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    margin-left: 1rem;
+}
+
+.flag-green {
+    flex: 1;
+    height: 100%;
+    background-color: green;
+}
+
+.flag-white {
+    flex: 1;
+    height: 100%;
+    background-color: white;
+}
+
+.flag-red {
+    flex: 1;
+    height: 100%;
+    background-color: red;
+}
+
+.menu-container {
+    width: 75%;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+h3 {
+    color: var(--panel-border-color)
+}
+
+.menu-item {
+    position: relative;
+    text-align: justify;
+    box-shadow: 0px 5px 15px 3px var(--border-right-button-color);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-bottom: 1px solid var(--panel-border-color);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.menu-item-info {
+    height: 100;
+    padding: 0rem 2rem;
+}
+
+.menu-item-price {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    color: var(--panel-border-color);
+}
+
+.pad-bot-1rem {
+    padding-bottom: 5rem;
+}
+
+.mar-bot-1r {
+    margin-bottom: 1rem;
+}
+
+.fs-1p5r {
+    font-size: 1.5rem;
+}
+
+.fs-2r {
+    font-size: 2rem;
+}
