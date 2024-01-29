@@ -1,6 +1,7 @@
 import initializeWebsite from "./init";
 
 //importing all images
+
 import '../images/bistecca-alla-fiorentina.jpg';
 import '../images/capricciosa.jpg';
 import '../images/fettuccine-alfredo-con-funghi.jpg';
