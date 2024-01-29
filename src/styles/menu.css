@@ -1,14 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
-    --border-right-button-color: #9ca3af;
-    --panel-border-color: #4c0519;
-
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 .menu-header {
     width: 75%;
     margin: auto;
@@ -112,6 +101,10 @@ h3 {
 
 .pad-bot-1rem {
     padding-bottom: 5rem;
+}
+
+.pad-left-0p5r{
+    padding-left: 0.5rem;
 }
 
 .mar-bot-1r {

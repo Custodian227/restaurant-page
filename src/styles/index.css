@@ -4,7 +4,10 @@
     padding: 0;
 
     --border-right-button-color: #9ca3af;
-    --motto-color: #4c0519;
+    --motto-color: #913c3c;
+    --panel-border-color: #4c0519;
+    --contact-info-color: #948d3e;
+    --history-section-color: #3a5d8c;
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -47,7 +50,7 @@ header {
 
 .index-navigation-button {
     padding: 2rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     flex: 1;
     border-style: none;
     color: white;
@@ -61,8 +64,8 @@ header {
 .index-motto {
     width: 100%;
     height: auto;
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(578px, 1fr));
     padding: 8rem;
     gap: 3rem;
     background-color: var(--motto-color);
@@ -71,11 +74,8 @@ header {
 }
 
 .index-motto-header-container {
-    flex: 1;
-}
-
-.index-motto-paragraph-container {
-    flex: 1;
+    display: flex;
+    align-items: center;
 }
 
 .font-size-1rem {

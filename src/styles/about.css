@@ -1,0 +1,63 @@
+.history-container {
+    margin: 6rem 0rem;
+    padding: 6rem;
+    color: white;
+    background-color: var(--history-section-color);
+}
+
+.history-title-container {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.history-paragraph {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.info-container {
+    background-color: var(--contact-info-color);
+    color: white;
+    padding: 6rem;
+}
+
+.restaurant-name-container {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+    gap: 6rem;
+}
+
+.contact-info {
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+
+.staff-info {
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+
+.additional-info {
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+
+.social-media {
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+
+.mar-bot-2r {
+    margin-bottom: 2rem;
+}
