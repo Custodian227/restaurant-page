@@ -62,7 +62,6 @@ function createMenu() {
 function createMenuItem(item) {
     const menuItem = document.createElement('div');
     const itemImageContainer = document.createElement('div');
-    const itemImage = document.createElement('img');
     
     const menuItemInfo = document.createElement('div');
     const menuItemDescription = document.createElement('div');
@@ -74,8 +73,8 @@ function createMenuItem(item) {
     const priceValue = document.createElement('span');
 
     menuItem.classList.add('menu-item', 'pad-bot-1rem');
-    itemImageContainer.classList.add('mar-bot-1r');
-    itemImage.classList.add('item-image');
+    itemImageContainer.classList.add('mar-bot-1r', 'menu-item-img');  
+    itemImageContainer.style.backgroundImage =  `url(${item.imagePath})`;
     menuItemInfo.classList.add('menu-item-info');
     menuItemDescription.classList.add('menu-item-description', 'mar-bot-1r');
     menuItemTitle.classList.add('menu-item-title', 'mar-bot-1r');
@@ -84,7 +83,6 @@ function createMenuItem(item) {
     priceValue.classList.add('pad-left-0p5r');
 
     menuItemTitle.textContent = item.name;
-    itemImage.src = item.imagePath;
     menuItemParagraph.textContent = item.description;
     priceLabel.textContent = 'Price:';
     priceValue.textContent = item.price;
@@ -92,7 +90,7 @@ function createMenuItem(item) {
     menuItem.appendChild(itemImageContainer);
     menuItem.appendChild(menuItemInfo);
 
-    itemImageContainer.appendChild(itemImage);
+    //itemImageContainer.appendChild(itemImage);
     menuItemInfo.appendChild(menuItemDescription);
     menuItemInfo.appendChild(menuItemPrice);
 

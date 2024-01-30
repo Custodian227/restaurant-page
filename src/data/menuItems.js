@@ -1,7 +1,7 @@
 const items = 
 [
     {
-        imagePath: '../dist/images/rreRisotto.jpg',
+        imagePath: '../dist/images/ac0a5c1ae3f7d294ee4c.jpg',
         name: 'Radicchio',
         price: '19.99$',
         description: `Radicchio or Red Endive Risotto is a flavorful Italian dish where the bitterness of radicchio
@@ -13,7 +13,7 @@ const items =
                         
     },
     {
-        imagePath: '../dist/images/spaghetti-and-meatballs.jpg',
+        imagePath: '../dist/images/8a565786b2e20ae4ddc4.jpg',
         name: 'Spaghetti and Meatballs',
         price: '14.99$',
         description: `Spaghetti and Meatballs is a classic Italian-American dish that combines al dente spaghetti with savory
@@ -25,7 +25,7 @@ const items =
                         
     },
     {
-        imagePath: '../dist/images/capricciosa.jpg',
+        imagePath: '../dist/images/a39c2449c6a4027e846e.jpg',
         name: 'Capriciossa',
         price: '17.49$',
         description: `Indulge in our delectable Capricciosa pizza, a culinary masterpiece that dances on the taste buds
@@ -36,7 +36,7 @@ const items =
                         ensuring a trulycapricious and satisfying dining experience.`                    
     },
     {
-        imagePath: '../dist/images/osso-buco.jpg',
+        imagePath: '../dist/images/21e9a15d2de99c134a38.jpg',
         name: 'Osso Buco',
         price: '21.49$',
         description: `Savor the culinary elegance of our Osso Buco, a Milanese masterpiece that captures the essence of
@@ -46,7 +46,7 @@ const items =
                         lemon zest—each bite is a journey through the hearty and soulful traditions of Milanese cuisine.`                    
     },
     {
-        imagePath: '../dist/images/spaghetti-carbonara.jpg',
+        imagePath: '../dist/images/7d765dbb25ba81173263.jpg',
         name: 'Spaghetti Carbonara',
         price: '15.99$',
         description: ` Indulge in the creamy goodness of Spaghetti Carbonara, a Roman delight that marries al dente spaghetti
@@ -56,7 +56,7 @@ const items =
         fresh parsley, this timeless dish is a testament to the art of Roman gastronomy.`                    
     },
     {
-        imagePath: '../dist/images/bistecca-alla-fiorentina.jpg',
+        imagePath: '../dist/images/06fd54a77a76c511c5d4.jpg',
         name: 'Bistecca Alla Fiorentina',
         price: '29.99$',
         description: `Bistecca alla Fiorentina, a Tuscan classic featuring a thick-cut T-bone or porterhouse
@@ -67,7 +67,7 @@ const items =
                         flavors that define the essence of Tuscan culinary tradition.`                    
     },
     {
-        imagePath: '../dist/images/gnocchi-alla-sorrentina.jpg',
+        imagePath: '../dist/images/f2af30bf3acda5162f87.jpg',
         name: 'Gnocchi Alla Sorrentina',
         price: '17.49$',
         description: `Experience comfort on a plate with our Gnocchi alla Sorrentina. Soft and pillowy potato
@@ -78,7 +78,7 @@ const items =
                         celebration of simplicity and Italian flair. Buon Appetito!`                    
     },
     {
-        imagePath: '../dist/images/fettuccine-alfredo-con-funghi.jpg',
+        imagePath: '../dist/images/ccfbee2a380a0474ba81.jpg',
         name: 'Fettuccine Alfredo Con Funghi',
         price: '20.99$',
         description: `Embark on a culinary journey with our "Fettuccine Alfredo con Funghi," a symphony of flavors that elevates
