@@ -1,6 +1,9 @@
 import getContentElement from "../functions/content";
 import "../styles/menu.css"
-import items from "../data/menuItems";
+import { items } from "../data/menuItems";
+import { menuItemImages } from "../data/images";
+
+let imageIndex = 0;
 
 function createMenuHeader() { 
     const menuHeader = document.createElement('div');
@@ -73,8 +76,10 @@ function createMenuItem(item) {
     const priceValue = document.createElement('span');
 
     menuItem.classList.add('menu-item', 'pad-bot-1rem');
-    itemImageContainer.classList.add('mar-bot-1r', 'menu-item-img');  
-    itemImageContainer.style.backgroundImage =  `url(${item.imagePath})`;
+    itemImageContainer.classList.add('mar-bot-1r');  
+    itemImageContainer.appendChild(menuItemImages[imageIndex]);
+    menuItemImages[imageIndex].classList.add('menu-item-img');
+    imageIndex++;
     menuItemInfo.classList.add('menu-item-info');
     menuItemDescription.classList.add('menu-item-description', 'mar-bot-1r');
     menuItemTitle.classList.add('menu-item-title', 'mar-bot-1r');
@@ -90,7 +95,6 @@ function createMenuItem(item) {
     menuItem.appendChild(itemImageContainer);
     menuItem.appendChild(menuItemInfo);
 
-    //itemImageContainer.appendChild(itemImage);
     menuItemInfo.appendChild(menuItemDescription);
     menuItemInfo.appendChild(menuItemPrice);
 

@@ -1,31 +1,24 @@
-const items = 
+export const items = 
 [
     {
-        imagePath: '../dist/images/ac0a5c1ae3f7d294ee4c.jpg',
-        name: 'Radicchio',
+        name: 'Red Endive Risotto',
         price: '19.99$',
-        description: `Radicchio or Red Endive Risotto is a flavorful Italian dish where the bitterness of radicchio
+        description: `Red Endive Risotto or Radicchio is a flavorful Italian dish where the bitterness of radicchio
                         or red endive is balanced with the creamy richness of risotto. Arborio rice is slowly cooked
                         in a broth infused with sautéed radicchio or red endive, creating a vibrant and satisfying dish.
                         Additional ingredients such as onions, garlic, and Parmesan cheese contribute to the complexity
-                        of flavors, resulting in a unique and delicious risotto experience with a hint of bitter undertones.`   
-
-                        
+                        of flavors, resulting in a unique and delicious risotto experience with a hint of bitter undertones.`           
     },
     {
-        imagePath: '../dist/images/8a565786b2e20ae4ddc4.jpg',
         name: 'Spaghetti and Meatballs',
         price: '14.99$',
         description: `Spaghetti and Meatballs is a classic Italian-American dish that combines al dente spaghetti with savory
                         meatballs in a rich tomato sauce. The meatballs, usually a blend of ground beef or a mixtureof meats,
                         are seasoned with garlic, herbs, and Parmesan cheese, adding depth to the flavor. The tomatosauce is
                         often made with ripe tomatoes, garlic, onions, and herbs, simmered to perfection. The dishis then crowned
-                        with freshly cooked spaghetti, creating a comforting and hearty meal.`   
-
-                        
+                        with freshly cooked spaghetti, creating a comforting and hearty meal.`                    
     },
     {
-        imagePath: '../dist/images/a39c2449c6a4027e846e.jpg',
         name: 'Capriciossa',
         price: '17.49$',
         description: `Indulge in our delectable Capricciosa pizza, a culinary masterpiece that dances on the taste buds
@@ -36,7 +29,6 @@ const items =
                         ensuring a trulycapricious and satisfying dining experience.`                    
     },
     {
-        imagePath: '../dist/images/21e9a15d2de99c134a38.jpg',
         name: 'Osso Buco',
         price: '21.49$',
         description: `Savor the culinary elegance of our Osso Buco, a Milanese masterpiece that captures the essence of
@@ -46,7 +38,6 @@ const items =
                         lemon zest—each bite is a journey through the hearty and soulful traditions of Milanese cuisine.`                    
     },
     {
-        imagePath: '../dist/images/7d765dbb25ba81173263.jpg',
         name: 'Spaghetti Carbonara',
         price: '15.99$',
         description: ` Indulge in the creamy goodness of Spaghetti Carbonara, a Roman delight that marries al dente spaghetti
@@ -56,7 +47,6 @@ const items =
         fresh parsley, this timeless dish is a testament to the art of Roman gastronomy.`                    
     },
     {
-        imagePath: '../dist/images/06fd54a77a76c511c5d4.jpg',
         name: 'Bistecca Alla Fiorentina',
         price: '29.99$',
         description: `Bistecca alla Fiorentina, a Tuscan classic featuring a thick-cut T-bone or porterhouse
@@ -67,7 +57,6 @@ const items =
                         flavors that define the essence of Tuscan culinary tradition.`                    
     },
     {
-        imagePath: '../dist/images/f2af30bf3acda5162f87.jpg',
         name: 'Gnocchi Alla Sorrentina',
         price: '17.49$',
         description: `Experience comfort on a plate with our Gnocchi alla Sorrentina. Soft and pillowy potato
@@ -78,7 +67,6 @@ const items =
                         celebration of simplicity and Italian flair. Buon Appetito!`                    
     },
     {
-        imagePath: '../dist/images/ccfbee2a380a0474ba81.jpg',
         name: 'Fettuccine Alfredo Con Funghi',
         price: '20.99$',
         description: `Embark on a culinary journey with our "Fettuccine Alfredo con Funghi," a symphony of flavors that elevates
@@ -88,6 +76,4 @@ const items =
                         masterpiece. Garnished with fresh parsley, this dish is not just a meal—it's a captivating ode to Italian
                         gastronomy, promising an enchanting experience for the senses.`                    
     },
-]
-
-export default items;
+];
