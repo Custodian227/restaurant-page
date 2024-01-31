@@ -117,6 +117,8 @@ function loadMenuPage() {
         menuGrid.appendChild(createMenuItem(item));
     });
 
+    imageIndex = 0;
+
     content.appendChild(createMenuHeader());
     content.appendChild(menu);
 }
